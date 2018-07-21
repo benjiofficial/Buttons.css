@@ -19,6 +19,9 @@ function Style()
             document.getElementById(id).style.color = "#000000";
             TextColor = "#000000";
         }
+        css = '#' + id + '{ background-color: ' + BGcolor + ' !important;'+ ' color: ' + TextColor +'!important;}'; 
+        var sheet = document.createElement('style')
+        sheet.innerHTML = css;
         csshover = '#' + id + ':hover { background-color: ' + TextColor + ' !important;'+ ' color: ' + BGcolor +'!important;}'; 
         var sheet = document.createElement('style')
         sheet.innerHTML = csshover;
