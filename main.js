@@ -4,7 +4,7 @@ function Style()
     var inputs = document.getElementsByClassName("button custom");
     for (var i = 0; i < inputs.length; i++) {
         var id = inputs[i].id;
-        var csshover, TextColor;
+        var css, csshover, TextColor;
         color = id.slice(6);
         var BGcolor  = "#" + color;
         document.getElementById(id).style.backgroundColor = BGcolor;
