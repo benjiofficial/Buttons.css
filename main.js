@@ -22,6 +22,7 @@ function Style()
         css = '#' + id + '{ background-color: ' + BGcolor + ' !important;'+ ' color: ' + TextColor +'!important;}'; 
         var sheet = document.createElement('style')
         sheet.innerHTML = css;
+        document.head.appendChild(sheet);
         csshover = '#' + id + ':hover { background-color: ' + TextColor + ' !important;'+ ' color: ' + BGcolor +'!important;}'; 
         var sheet = document.createElement('style')
         sheet.innerHTML = csshover;
