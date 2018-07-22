@@ -127,6 +127,10 @@
     background-image: url('img/instagram.svg') !important;
 }
 
+.button.social#snapchat {
+    background-image: url('img/snapchat.svg') !important;
+}
+
 .button.social#spotify {
     background-image: url('img/spotify.svg') !important;
 }
