@@ -1,3 +1,8 @@
+:root {
+    --accent-color: #333;
+    --invert-accent-color: #cccccc;
+}
+
 /* Buttons */
 
 .button {
@@ -80,13 +85,13 @@
 /* Grey */
 
 .button#grey {
-    background-color: grey;
+    background-color: #333;
     color:white;
 }
 
 .active#grey:hover {
     background-color: white;
-    color: grey;
+    color: #333;
 }
 
 /* Shadows */
@@ -98,3 +103,46 @@
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+/* Social */
+
+.button.social {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 30px;
+    background-size: 30px;
+    
+    
+}
+
+.button.social#facebook {
+    background-image: url('img/facebook.svg') !important;
+}
+
+.button.social#googleplus {
+    background-image: url('img/googleplus.svg') !important;
+}
+
+.button.social#instagram {
+    background-image: url('img/instagram.svg') !important;
+}
+
+.button.social#spotify {
+    background-image: url('img/spotify.svg') !important;
+}
+
+.button.social#twitter {
+    background-image: url('img/twitter.svg') !important;
+}
+
+.button.social#whatsapp {
+    background-image: url('img/whatsapp.svg') !important;
+}
+.button.social#youtube {
+    background-image: url('img/youtube.svg') !important;
+}
+
+.button.social:hover {
+    filter: invert(100%);
+    background-color: var(--invert-accent-color) !important;
+}
