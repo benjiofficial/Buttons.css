@@ -142,7 +142,7 @@
     background-image: url('img/youtube.svg') !important;
 }
 
-.button.social:hover {
+.button.social.active:hover {
     filter: invert(100%);
     background-color: var(--invert-accent-color) !important;
 }
