@@ -3,7 +3,9 @@
 Responsive modern custom CSS elements
 
 how to use add: 
-script src="main.js"></script
+``` html
+<script src="main.js"></script>
+```
 to the head of your html document.
 Buttons.css: 
 add as stylesheet:
@@ -25,4 +27,7 @@ white (gives white button with black text),
 button (followed by full length colour hex code without #. Gives a css button where shadow, active and disabled classes apply)
 
 example:
-a class="button active custom" id="buttonFFFFFF">This returns an active white button with black text</a
+``` html
+<a class="button active custom" id="buttonFFFFFF">Test</a>
+ ```
+  This returns an active white button with black text
