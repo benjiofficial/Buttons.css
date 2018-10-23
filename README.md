@@ -31,3 +31,9 @@ example:
 <a class="button active custom" id="buttonFFFFFF">Test</a>
  ```
   This returns an active white button with black text
+
+
+
+## Contributing ##
+
+I am open to any ideas, if you have please send them to <a href="mailto: blearb.github@outlook.com">blearb.github@outlook.com</a>
