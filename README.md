@@ -2,7 +2,7 @@
 
 Responsive modern custom CSS elements
 
-Working Example: https://benjiofficial.github.io/benj.css/Example/
+Working Example: https://benjiofficial.github.io/Buttons.css/Example/
 
 how to use add: 
 ``` html
